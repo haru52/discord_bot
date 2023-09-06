@@ -1,0 +1,18 @@
+actionlint
+Base Template Repository
+base_template
+beta
+boilerplate
+Commitizen
+commitlint
+Contributing Guideline
+conventionalcommits
+Dependabot
+gibo
+haru
+npm
+repo
+reviewdog
+Secretlint
+WTFPL
+yamllint

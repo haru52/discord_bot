@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "arahata.linter-actionlint",
+    "chrischinchilla.vale-vscode",
+    "christian-kohler.npm-intellisense",
+    "DavidAnson.vscode-markdownlint",
+    "EditorConfig.EditorConfig",
+    "esbenp.prettier-vscode",
+    "ms-vscode.makefile-tools",
+    "RomanPeshkov.vscode-text-tables",
+    "timonwong.shellcheck"
+  ]
+}
