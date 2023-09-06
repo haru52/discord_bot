@@ -24,4 +24,4 @@ lint-action:
 update-gi:
 	gibo update
 	cat .gitignore_custom >| .gitignore
-	gibo dump macOS Linux Windows VisualStudioCode JetBrains Vim Node >> .gitignore
+	gibo dump macOS Linux Windows VisualStudioCode JetBrains Vim Node Python >> .gitignore
