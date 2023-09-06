@@ -8,6 +8,9 @@ commitlint
 Contributing Guideline
 conventionalcommits
 Dependabot
+discord_bot
+Discord bot
+Discord Bot
 gibo
 haru
 MIT
