@@ -1,7 +1,7 @@
 {
-  "name": "base-template",
-  "version": "7.11.0",
-  "description": "Fully automated template repository which provides full compliance with the community standards.",
+  "name": "discord-bot",
+  "version": "0.1.0",
+  "description": "Discord bot.",
   "private": true,
   "engines": {
     "node": "^18.16.0",
