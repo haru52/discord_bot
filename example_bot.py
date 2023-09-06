@@ -1,6 +1,7 @@
 # https://discordpy.readthedocs.io/ja/latest/quickstart.html
 # This example requires the 'message_content' intent.
 
+import os
 import discord
 
 intents = discord.Intents.default()
@@ -20,4 +21,4 @@ async def on_message(message):
     if message.content.startswith('$hello'):
         await message.channel.send('Hello!')
 
-client.run('your token here')
+client.run(os.environ['DISCORD_BOT_TOKEN'])
