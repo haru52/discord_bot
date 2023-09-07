@@ -9,3 +9,4 @@
 "*.sh": shellcheck
 ".husky/*": shellcheck
 ".github/workflows/*.{yml,yaml}": actionlint
+"*.py": pipenv run lint
