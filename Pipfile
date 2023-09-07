@@ -18,3 +18,4 @@ python_full_version = "3.11.5"
 [scripts]
 lint = "flake8 main.py src"
 format = "autopep8 --in-place --aggressive --aggressive --recursive main.py src"
+start = "python main.py"
