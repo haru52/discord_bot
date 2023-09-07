@@ -4,10 +4,17 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-discord = "*"
+discord = "~=2.3"
 
 [dev-packages]
+autopep8 = "~=2.0"
+flake8 = "~=6.1"
+flake8-import-order = "~=0.18"
 
 [requires]
 python_version = "3.11"
 python_full_version = "3.11.5"
+
+[scripts]
+lint = "flake8 main.py src"
+format = "autopep8 --in-place --aggressive --aggressive --recursive main.py src"
