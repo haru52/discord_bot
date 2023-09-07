@@ -35,6 +35,21 @@
 git clone git@github.com:<your org>/base_template.git
 cd base_template
 make dev-install
+vi .envrc
+```
+
+```txt
+export DISCORD_BOT_TOKEN=<your Discord bot token>
+```
+
+```sh
+direnv allow .
+```
+
+## Run
+
+```sh
+pipenv run start
 ```
 
 ## Lint

@@ -15,6 +15,8 @@ Discord bot.
 
 ## Installation
 
+Deploy to a server that has Python3 runtime such as [Railway](https://railway.app/).
+
 ## Usage
 
 ## Uninstall
