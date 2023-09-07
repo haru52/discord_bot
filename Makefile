@@ -1,10 +1,11 @@
-.PHONY: dev-install lint lint-npm lint-text lint-yml lint-sh lint-action update-gi
+.PHONY: dev-install lint lint-npm lint-text lint-yml lint-sh lint-action lint-py update-gi
 
 dev-install:
 	npm ci
 	vale sync
+	pipenv sync --dev
 
-lint: lint-npm lint-text lint-yml lint-sh lint-action
+lint: lint-npm lint-text lint-yml lint-sh lint-action lint-py
 
 lint-npm:
 	npm run lint
@@ -20,6 +21,9 @@ lint-sh:
 
 lint-action:
 	actionlint
+
+lint-py:
+	pipenv run lint
 
 update-gi:
 	gibo update
